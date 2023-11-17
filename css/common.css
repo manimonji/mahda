@@ -1,0 +1,80 @@
+@font-face {
+    font-family: sahel;
+    src: url("/fonts/sahel.woff2");
+}
+
+@font-face {
+    font-family: sahel-fd;
+    font-weight: 900;
+    src: url("/fonts/sahel-black-fd.woff2");
+}
+@font-face {
+    font-family: sahel-fd;
+    font-weight: 700;
+    src: url("/fonts/sahel-semibold-fd.woff2");
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    
+    font-family: sahel;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+
+    padding: 0.5em 0.75em;
+
+    border: none;
+    border-radius: .5em;
+
+    font-family: inherit;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+    transition: 0.2s;
+
+    img {
+        height: 2rem;
+        aspect-ratio: 1 / 1;
+
+        margin-inline-end: 0.25em;
+
+        color: #fff;
+
+        transform: scaleX(-1);
+    }
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+
+    margin-inline: 1rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+
+    /* padding-inline: 2em; */
+
+    border-radius: 2em;
+}
+
+.btn.primary {
+    color: #fff;
+    background-color: hsl(150 100% 10%);
+}
+
+.btn.primary:hover {
+    background-color: hsl(150 100% 15%);
+}
+
+.btn.secondary {
+    color: hsl(150 100% 5%);
+    background-color: #fff;
+}
