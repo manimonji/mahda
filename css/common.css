@@ -35,17 +35,17 @@ body {
     text-decoration: none;
 
     transition: 0.2s;
+}
 
-    img {
-        height: 2rem;
-        aspect-ratio: 1 / 1;
+.btn > img {
+    height: 2rem;
+    aspect-ratio: 1 / 1;
 
-        margin-inline-end: 0.25em;
+    margin-inline-end: 0.25em;
 
-        color: #fff;
+    color: #fff;
 
-        transform: scaleX(-1);
-    }
+    transform: scaleX(-1);
 }
 
 .buttons {
