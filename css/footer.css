@@ -48,7 +48,7 @@ body>footer>.contact-information>div>p {
     top: .05em;
 }
 
-body>.copyright {
+body>footer>.copyright {
     padding-top: 1rem;
     margin: 0;
 
@@ -56,19 +56,19 @@ body>.copyright {
     text-align: center;
 }
 
-body>.made-by {
+body>footer>.made-by {
     margin-bottom: 0;
 
     text-align: center;
 }
 
-body>.made-by>a {
+body>footer>.made-by>a {
     color: hsl(240 100% 60%);
 
     font-weight: 600;
 }
 
-body>.made-by>img {
+body>footer>.made-by>img {
     vertical-align: bottom;
 }
 
