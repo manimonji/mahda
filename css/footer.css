@@ -16,7 +16,7 @@ body>footer>img {
     left: 0;
 }
 
-body>footer>img>.contact-information {
+body>footer>.contact-information {
     display: flex;
     justify-content: space-evenly;
 
@@ -25,7 +25,7 @@ body>footer>img>.contact-information {
     border-bottom: 2px solid hsl(150 10% 60%);
 }
 
-body>footer>img>.contact-information>div {
+body>footer>.contact-information>div {
     display: flex;
     align-items: center;
     gap: .5rem;
@@ -34,14 +34,14 @@ body>footer>img>.contact-information>div {
     font-size: 1.5rem;
 }
 
-body>footer>img>.contact-information>div>img {
+body>footer>.contact-information>div>img {
     height: 1.5em;
     aspect-ratio: 1 / 1;
 
     transform: scaleX(-1);
 }
 
-body>footer>img>.contact-information>div>p {
+body>footer>.contact-information>div>p {
     margin: 0;
 
     position: relative;
