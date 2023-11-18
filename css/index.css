@@ -12,11 +12,14 @@ body>main>.hero {
     align-items: center;
 
     padding-top: 3rem;
+    padding-inline: 2rem;
     margin-bottom: var(--round-edge-height);
 
     position: relative;
 
     background-color: var(--background-color);
+
+    text-align: center;
 }
 
 body>main>.hero>* {
@@ -27,11 +30,11 @@ body>main>.hero>h1.title {
     color: hsl(150 100% 5%);
 
     font-size: 3rem;
-    line-height: 1em;
+    line-height: 1.25em;
 }
 
 body>main>.hero>p.description {
-    margin: 2rem 0;
+    margin-block: 1.5rem 2rem;
 
     color: hsl(150 100% 10%);
 
@@ -80,9 +83,11 @@ body>main>.hero::after {
 
 body>main>.statics {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    gap: 2rem;
 
-    padding: 3rem 0;
+    padding: 3rem 1rem;
 }
 
 body>main>.statics>div {
